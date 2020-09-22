@@ -1,0 +1,19 @@
+{
+    "name": "hexagono/site-contact-page",
+    "description": "Create a standard general purpose contact page",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hexagono",
+            "email": "hexagono.mx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hexagono\\Contact\\": "src/"
+        }
+    }
+}
