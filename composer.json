@@ -15,5 +15,12 @@
         "psr-4": {
             "Hexagono\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hexagono\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
