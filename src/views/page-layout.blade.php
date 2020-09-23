@@ -1,5 +1,5 @@
-@extends('layouts.site')
-@section('content')
+@extends(config('contact.layout'))
+@section(config('contact.section'))
 
     <section>
         <div class="@if(config('contact.display-map') === 'fluid') container-fluid @else container @endif">
